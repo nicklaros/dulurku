@@ -31,7 +31,7 @@ function create(data) {
     store,
     svg,
     card_dim: {w:220,h:70,text_x:75,text_y:15,img_w:60,img_h:60,img_x:5,img_y:5},
-    card_display: [d => `${d.data["first name"]} ${d.data["last name"]}`],
+    card_display: [d => `${d.data["name"]}`],
     mini_tree: true,
     link_break: false
   })
@@ -43,10 +43,10 @@ function create(data) {
   const all_select_options = []
   data.forEach(d => {
     if (all_select_options.find(d0 => d0.value === d["id"])) return
-    all_select_options.push({label: `${d.data["first name"]}`, value: d["id"]})
+    all_select_options.push({label: `${d.data["name"]}`, value: d["id"]})
   })
   const search_cont = d3.select(document.querySelector("#FamilyChart")).append("div")
-    .attr("style", "position: absolute; top: 10px; left: 10px; width: 150px; z-index: 1000;")
+    .attr("style", "position: absolute; top: 10px; left: 10px; width: 250px; z-index: 1000; font-size: 25px;")
     .on("focusout", () => {
       setTimeout(() => {
         if (!search_cont.node().contains(document.activeElement)) {
@@ -57,7 +57,7 @@ function create(data) {
   const search_input = search_cont.append("input")
     .attr("style", "width: 100%;")
     .attr("type", "text")
-    .attr("placeholder", "Search")
+    .attr("placeholder", "Cari nama")
     .on("focus", activateDropdown)
     .on("input", activateDropdown)
 
@@ -86,6 +86,13 @@ function create(data) {
     store.updateMainId(person_id)
     store.updateTree({initial: animation_initial})
   }
+
+  setTimeout(() => {
+    const tree = store.getTree();
+    const datum = tree.data[0]
+    console.log(datum.data.data)
+    f3.handlers.cardToMiddle({datum, svg, svg_dim: svg.getBoundingClientRect(),  transition_time: 2000})
+  }, 5000)
 }
 
 </script>
