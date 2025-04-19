@@ -3319,7 +3319,7 @@
       "gender": "F",
       "first name": "Umrotul Fatikhah",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/umrotul.jpeg"
     },
     "rels": {
       "father": "e578ae40-55ee-4e23-89e9-41ea924d6dfe",
@@ -3340,7 +3340,7 @@
       "gender": "M",
       "first name": "M Nur Istamar",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/nur.jpeg"
     },
     "rels": {
       "father": "07aae8ed-ed20-4ad5-9f48-dec5af9cf272",
@@ -3361,7 +3361,7 @@
       "gender": "M",
       "first name": "Eko Fahrudi Silviawan",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/eko.jpeg"
     },
     "rels": {
       "father": "dd79abfe-d215-4579-80d5-65f489cefa8f",
@@ -3380,7 +3380,7 @@
       "gender": "F",
       "first name": "Surya Happy Kurnia Sari",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/happy.jpeg"
     },
     "rels": {
       "father": "dd79abfe-d215-4579-80d5-65f489cefa8f",
@@ -3399,7 +3399,7 @@
       "gender": "F",
       "first name": "Riska Maulidya Cahyani",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/ica.jpeg"
     },
     "rels": {
       "father": "dd79abfe-d215-4579-80d5-65f489cefa8f",
@@ -3418,7 +3418,7 @@
       "gender": "F",
       "first name": "Athi' Khoirotin",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/athi.jpeg"
     },
     "rels": {
       "spouses": [
@@ -3435,7 +3435,7 @@
       "gender": "M",
       "first name": "Ahmad Fatih Afkar",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/fatih.jpeg"
     },
     "rels": {
       "father": "6a500531-b412-46a9-b180-800b6c7b78ce",
@@ -3448,7 +3448,7 @@
       "gender": "M",
       "first name": "Effantra Efendi",
       "birthday": "",
-      "avatar": ""
+      "avatar": "avatar/effant.jpeg"
     },
     "rels": {
       "spouses": [
@@ -3465,7 +3465,7 @@
       "gender": "F",
       "first name": "Arunima Himazaya Effendi",
       "birthday": "",
-      "avatar": "",
+      "avatar": "avatar/hima.jpeg",
       "last name": ""
     },
     "rels": {
@@ -3479,7 +3479,7 @@
       "gender": "M",
       "first name": "Novid Ari Rahmawan",
       "birthday": "",
-      "avatar": "",
+      "avatar": "avatar/novid.jpeg",
       "last name": ""
     },
     "rels": {
@@ -3497,7 +3497,7 @@
       "gender": "M",
       "first name": "Erza Devanka Aryan",
       "birthday": "",
-      "avatar": "",
+      "avatar": "avatar/erza.jpeg",
       "last name": ""
     },
     "rels": {
